@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #b2bda0;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.card {
+    position: relative;
+    width: 180px;
+    height: 250px;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-30px);
+}
+
+.card::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background: linear-gradient(45deg, #526534, #8d9e6f);
+    border-radius: 20px;
+  }
+
+  .card .content {
+    position: relative;
+    padding: 10px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    text-decoration-line: none;
+    align-items: center;
+    justify-content: center;
+    top: 90px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active{
+    color: white;
+    text-decoration: none;
+  }
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #526534;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 250px;
+}

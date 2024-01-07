@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #b2bda0;
+    align-items: center;
+    display: flex;
+}
+
+.back img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.isi {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.sbr {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.one {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.pengertian {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.two {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.qs {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.ayat {
+    float: right;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.arti {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.three {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+.dampak {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.four {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.kisah {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+}

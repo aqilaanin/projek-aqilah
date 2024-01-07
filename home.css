@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar button {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    background: #fff;
+    border: 1.5px solid #2f3b1c;
+    border-radius: 15px;
+}
+
+img {
+    float: right;
+    margin-top: 85px;
+    margin-right: 35px;
+}  
+
+.h1 {
+    color: black;
+    font-size: 48px;  
+    font-weight: 700; 
+    word-wrap: break-word;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.h2 {
+    color: #4B6043; 
+    font-size: 32px;  
+    font-weight: 500; 
+    word-wrap: break-word;
+    margin-left: 100px;
+}
+
+.container {
+    width: 1160px;
+    height: 360px;
+    box-sizing: border-box;
+    border: 1.5px solid #2f3b1c;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 275px 50px;
+}
+
+.left-image {
+    float: left;
+    margin-left: 45px;
+}
+
+.ket {
+    float: right;
+    margin-right: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #526534;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    line-height: 150px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+    width: 100%;
+    }
+    }
+
+
